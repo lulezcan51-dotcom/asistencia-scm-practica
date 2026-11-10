@@ -1,4 +1,9 @@
 # Changelog
+
+## [2.0.0] - 2026-11-09
+### Changed
+- Cambio estructural en la firma de la función `registrar_asistencia`: ahora recibe un diccionario con metadatos del alumno (`dni`, `materia`) en lugar de un string plano. Cambio no retrocompatible (breaking change).
+
 ## [1.1.0] - 2026-09-03
 ### Added
 - Acumulador y contador global de asistencias en tiempo de ejecucion.
